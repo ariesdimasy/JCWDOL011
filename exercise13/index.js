@@ -12,3 +12,5 @@ maka, harus melakukan `git pull origin development ` DI MASING-MASING BRANCH
 biasakan saat mau melakukan pull request , harus git pull origin di branch yg 
 paling update ( main / master ) ( development )
 kalu terjadi conflict , fixing dulu secara team . sesudah fixing baru pull request 
+
+*/
