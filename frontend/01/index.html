@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Home | Yudhistira.id</title>
+    <meta aria-details="halaman home">
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <style>
+        a {
+            color: brown;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        a:visited {
+            color: darkred;
+        }
+
+        a[href] {
+            color: darkcyan
+        }
+
+        .mytable {
+            background-color: crimson;
+
+        }
+
+        .tablefont {
+            color: white;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        #heading2 {
+            color: cornflowerblue;
+        }
+
+        #welcome::first-letter {
+            font-size: 40px;
+            font-weight: bold;
+        }
+
+        .foo::first-line {
+            background-color: darkturquoise;
+        }
+    </style>
+</head>
+
+<body>
+    <h1> welcome to Yudhistira.id </h1>
+    <h2 id="heading2"> Yudhistira.id </h2>
+    <h3> Yudhistira.id </h3>
+    <h4 id="heading2"> Yudhistira.id </h4>
+    <hr />
+
+    <a href="https://google.com"> Google </a> |
+    <a href="./service.html"> Service </a> |
+    <a href="./sub/page.html"> Subpage </a>
+    <a href="./contactus.html"> Contact Us </a>
+    <a> Tidak kemana - mana </a>
+    <hr />
+
+    <img src="./image.jpg" width="200" height="150" title="doa" alt="doa" />
+
+    <figure class="mytable">
+        <img src="https://www.w3schools.com/html/pic_trulli.jpg" width="300" height="200" title="rumah" alt="home">
+        <figcaption> Tiga Rumah </figcaption>
+    </figure>
+
+    <p title="welcome" id="welcome"> Welcome everyone </p>
+    <p style="color:blue"> Hello this is my first <b>HTML</b></p>
+    <p class="foo"> Foo this is <br> Bar is this</p>
+    <!-- ini komentar, tapi keliatan . liat dari mana ? -->
+
+    <p><b> Ini Bold </b>
+        <strong> Ini Strong</strong>
+    </p>
+    <p><i> ini italic </i>
+        <em> ini Emphasis</em>
+    </p>
+    <p><mark> ini mark </mark>
+        <small> ini small</small>
+    </p>
+
+    <ul>
+        <li> Task 1</li>
+        <li> Task 2</li>
+        <li> Task 3</li>
+    </ul>
+
+    <ol>
+        <li> Task 1</li>
+        <li> Task 2</li>
+        <li> Task 3</li>
+    </ol>
+
+    <table border="1" cellpadding="5" cellspacing="0" class="mytable">
+        <thead>
+            <tr>
+                <th> Name </th>
+                <th> Title </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td> Aries Dimas </td>
+                <td> Elite Global </td>
+            </tr>
+            <tr>
+                <td> Galih </td>
+                <td> Fullstuck Developer </td>
+            </tr>
+            <tr>
+                <td colspan="2"> None </td>
+
+            </tr>
+            <tr>
+                <td rowspan="2"> Aries Dimas </td>
+                <td> Elite Global </td>
+            </tr>
+            <tr>
+
+                <td> Fullstuck Developer </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div style="height: 100px; width: 100px; background-color: aquamarine; border: 2px double blue; 
+    margin-top:10px; margin-bottom: 20px; margin-left: 30px; padding-top: 40px;"> ini
+        hanya untuk
+        layouting </div>
+
+    <div style="height: 100px; width: 100px; background-color: aquamarine; 
+    border: 2px dotted blue; margin: 10px 20px 30px 40px; padding:10px 20px 30px 40px"> ini hanya untuk
+        layouting </div>
+
+    <table border="1" cellpadding="5" cellspacing="0" class="mytable tablefont">
+        <thead>
+            <tr>
+                <th> Name </th>
+                <th> Title </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td> Aries Dimas </td>
+                <td> Elite Global </td>
+            </tr>
+            <tr>
+                <td> Galih </td>
+                <td> Fullstuck Developer </td>
+            </tr>
+
+        </tbody>
+    </table>
+
+    <div class="box">
+
+    </div>
+
+
+</body>
+
+</html>
