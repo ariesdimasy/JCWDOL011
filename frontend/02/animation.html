@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            width: 400px;
+            height: 400px;
+            margin: 50px;
+            background-color: purple;
+
+
+        }
+
+        .box:hover {
+            transform: translate(100px, 100px);
+            transition: all 2s
+        }
+
+        .box2 {
+            width: 100px;
+            height: 100px;
+            margin: 50px;
+            background-color: purple;
+
+        }
+
+        .box2:hover {
+            transform: rotate(45deg);
+            transition: all 3s;
+        }
+
+        .box3 {
+            width: 100px;
+            height: 100px;
+            margin: 50px;
+            background-color: purple;
+
+        }
+
+        .box3:hover {
+            transform: perspective(700px) translateX(100px);
+            transition: all 4s
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box"></div>
+    <div class="box2"></div>
+    <div class="box3"></div>
+</body>
+
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .modal {
+            border: 1px solid black;
+            width: 70%;
+            padding: 50px 0;
+            margin-right: auto;
+            margin-left: auto;
+            margin-top: 100px;
+            text-align: center;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: rgb(35, 35, 35);
+            border-radius: 10px;
+        }
+
+        .modal img {
+            width: 80%;
+            height: 100px;
+            object-fit: cover;
+
+            /* dari parent saya. klo parent 100px maka saya 80px*/
+
+        }
+
+        .modal h1 {
+            margin-top: 30px;
+            margin-bottom: 10px;
+        }
+
+        .modal p {
+            margin-bottom: 30px;
+        }
+
+        .modal button {
+            color: white;
+            background-color: #4168e4;
+            width: 100px;
+            height: 40px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="modal">
+        <img src="./pemandangan.jpg" />
+
+        <h1> Beautiful !</h1>
+        <p>Modal with Custom Image</p>
+
+        <button> Lovely </button>
+    </div>
+</body>
+
+</html>
