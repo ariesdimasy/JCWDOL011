@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1> Hello World</h1>
+    <h1> My Name is Dimas</h1>
+    <button id="hello" onclick="sayHello()"> Click Me </button>
+    <button id="myButton"> kick Me </button>
+    <div id="myElement1"></div>
+    <div id="myElement2"></div>
+    <div id="elementToRemove">
+        Hello remove me
+    </div>
+    <script>
+        function sayHello() {
+            alert("hello")
+        }
+
+        document.getElementById("hello").innerHTML = "Click Hello"
+        var heading = document.getElementsByTagName("h1")
+        heading[0].innerHTML = "Hello World Dimas"
+
+        const myElement1 = document.getElementById("myElement1")
+        myElement1.innerText = "<b>New text Content</b>"
+
+        const myElement2 = document.getElementById("myElement2")
+        myElement2.innerHTML = "<p><b> This is new Paragraph </b></p>"
+
+
+        const newParagraph = document.createElement("p")
+        newParagraph.innerText = "This is a new Paragraph 2"
+        myElement2.appendChild(newParagraph)
+
+        const elementToRemove = document.getElementById("elementToRemove")
+        const parentElement = elementToRemove.parentNode
+        parentElement.removeChild(elementToRemove)
+
+        myElement1.setAttribute("align", "center")
+
+        myElement1.style.color = "blue"
+        myElement1.style.fontSize = "18px"
+
+        const myButton = document.getElementById("myButton")
+        myButton.addEventListener("click", function () {
+            alert("Button Clicked")
+        })
+
+
+    </script>
+</body>
+
+</html>
